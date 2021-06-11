@@ -1,1 +1,3 @@
-# const-var-scope-SB
+Pairs game
+
+https://mariakisel.github.io/pairs-game-SB/
