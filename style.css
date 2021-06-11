@@ -1,0 +1,52 @@
+body{
+    display:flex;   
+    flex-direction: column;
+    align-items: center;
+    font: 115%/1.5 Arial, sans-serif;    
+}
+
+.playField{
+    margin: 10px;
+}
+
+.playField > div {
+    font-size: 2.5rem;
+    padding: .5em;    
+    text-align: center;
+    border-radius: 5px;    
+    background-image: linear-gradient(to right, #9EEFE1 0%, #bab0ff 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    transition: .5s;    
+}
+.playField > div:hover {
+    background-position: right center;
+}
+
+#restartGame, #timer, #restartGameButton, #message {
+    display: none;
+}
+
+.gradient-button {
+    text-decoration: none;
+    width: 150px;
+    height: 40px;    
+    border-radius: 5px;    
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #bab0ff 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.gradient-button:hover {
+    background-position: right center;
+}
+
+.inputNumber {    
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 5px;    
+    width: 40px;
+    height: 34px;
+    text-align: center;
+}
